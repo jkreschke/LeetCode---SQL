@@ -1,0 +1,9 @@
+SELECT
+    A.name AS Employee
+FROM
+    Employee as A JOIN Employee as B
+ON
+    A.managerId = B.id
+WHERE
+    A.salary > B.salary
+​
