@@ -1,0 +1,14 @@
+SELECT
+    email
+FROM
+(SELECT
+    email,
+    COUNT(*) as num
+FROM
+    Person
+GROUP BY
+    email
+) AS temp
+WHERE
+    num > 1;
+    
