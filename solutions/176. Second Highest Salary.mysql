@@ -1,0 +1,11 @@
+SELECT
+    MAX(salaries) as SecondHighestSalary
+FROM
+    (SELECT
+    CASE
+        WHEN salary = (SELECT MAX(salary) from Employee) THEN Null
+        ELSE salary
+    END AS salaries
+    FROM
+        Employee
+    ) as temp
