@@ -1,0 +1,12 @@
+SELECT
+    class
+FROM
+    (SELECT
+        class,
+        count(distinct(student)) as enrolled
+     FROM
+        courses
+     GROUP BY
+        class) as temp
+WHERE
+    enrolled >= 5
