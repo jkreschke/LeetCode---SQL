@@ -1,0 +1,5 @@
+SELECT
+    Weather.id
+FROM
+    weather JOIN weather AS b ON DATEDIFF(weather.recordDate, b.recordDate) = 1
+        AND weather.temperature > b.temperature
