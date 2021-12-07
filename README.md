@@ -9,3 +9,4 @@
 |183|[ Customers Who Never Order](https://leetcode.com/problems/customers-who-never-order/)|[MySQL](./solutions/183.%20Customers%20Who%20Never%20Order.mysql)|505 ms|
 |196|[ Delete Duplicate Emails](https://leetcode.com/problems/delete-duplicate-emails/)|[MySQL](./solutions/196.%20Delete%20Duplicate%20Emails.mysql)|536 ms|
 |197|[ Rising Temperature](https://leetcode.com/problems/rising-temperature/)|[MySQL](./solutions/197.%20Rising%20Temperature.mysql)|675 ms|
+|596|[ Classes More Than 5 Students](https://leetcode.com/problems/classes-more-than-5-students/)|[MySQL](./solutions/596.%20Classes%20More%20Than%205%20Students.mysql)|264 ms|
